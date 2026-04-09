@@ -2,6 +2,7 @@ import { createClienteDTO } from "../dtos/createClienteDTO.js";
 
 export class ClienteController {
   // Método especial Construtor
+  // É executado assim que o objeto é instaciado
   constructor(clienteService) {
     this.clienteService = clienteService;
   }
